@@ -19,3 +19,11 @@ To create a welcoming space where developers & Believers alike can grow their sc
 > *"Great code is written together, one commit at a time."*
 
 Whether you're a beginner looking to learn or an experienced developer eager to contribute, **Midnight Codex** welcomes anyone with a passion for programming & biblical studying.
+
+## License
+
+© 2026 Tavaris Freeman (Midnight Codex). **All rights reserved.**
+
+This project is proprietary. The source is shared for viewing and reference only —
+it may not be copied, modified, reused, or redistributed without prior written
+permission. See [LICENSE](LICENSE) for details.
