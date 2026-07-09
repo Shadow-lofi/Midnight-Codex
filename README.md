@@ -8,7 +8,7 @@ Join our community of tech enthusiasts and biblical scholars as we delve into th
 
 * 💻 Build software and web applications
 * 🚀 Explore new technologies and programming languages
-* 🤝 Collaborate on open-source and personal projects
+* 🤝 Collaborate on personal and Kingdom-minded projects
 * 🧠 Share knowledge, ideas, and best practices
 * 🌙 Code late, create more
 

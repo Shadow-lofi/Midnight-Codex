@@ -1,3 +1,9 @@
+/* Base body text — a light, readable grey on the black background
+   (clear to read without being harsh pure white). */
+.text-greyish {
+    color: #d0d0d0;
+}
+
 .container {
     margin-top: 20px;
 
