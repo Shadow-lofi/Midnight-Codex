@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>✞ Midnight Codex ✞</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -17,12 +18,12 @@
     <p class="text-center">Join our community of tech enthusiasts and biblical scholars as we delve into the ever evolving world of technology and its implications for the end times.</p>
 
      <nav class="nav justify-content-center bg-danger p-3">
-        <a class="nav-link text-white" href="#Home">Home</a>
-        <a class="nav-link text-white" href="#❓">?</a>
-        <a class="nav-link text-white" href="#ScriptureHelp">Scripture Help</a>
-        <a class="nav-link text-white" href="https://shadow-lofi.github.io/Light-In-the-Last-Seconds">Light In Darkness</a>
-        <a class="nav-link text-white" href="#ContactUs">Contact Us</a>
+        <a class="nav-link text-white" href="#❓">About</a>
+        <a class="nav-link text-white" href="#Circle">The Circle</a>
+        <a class="nav-link text-white" href="#Forum">Forum</a>
         <a class="nav-link text-white" href="#Videos">Videos</a>
+        <a class="nav-link text-white" href="https://shadow-lofi.github.io/Oil-In-My-Lamp">Light In Darkness</a>
+        <a class="nav-link text-white" href="#ContactUs">Join</a>
     </nav>
     <br ><br>
 
@@ -45,8 +46,9 @@
             <iframe width="260" height="115" src="https://www.youtube.com/embed/xGUPHq-4thk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe width="260" height="115" src="https://www.youtube.com/embed/gSrECD7alAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+    </section>
 
-    <section id="Videos" class="container">
+    <section id="Warfare" class="container">
         <div class="container text-center mb-4">
             <h2 class="text-center text-danger">Visual Depictions of Spiritual Warfare</h2>
             <p class="text-center">Light & Shadows - Explore our selection of Midnight Codex Spiritual Warfare visualizations reaveal a reality unseen.</p>
@@ -82,18 +84,77 @@
         <button type="button" class="btn btn-danger"><a href="https://www.youtube.com/channel/UCbr6HuPff-1hFtirgtIJTMw" class="text-white text-decoration-none">Subscribe Now</a></button>
     </div>
 
-    <section id="ContactUs" class="container mt-5">
-        <h2 class="text-center text-danger">Contact Us</h2>
-        <form>
-            <div class="mb-3">
-            <p class="text-warning text-center">Reach out to us securely via encrypted channels. Email: contact@midnightcodex.net (PGP key available upon request).</p>
-            <p class="text-danger text-center">Follow us on dark web forums or join our invite-only Encrypted Discord server : 
-            <div class="d-flex justify-content-center">
-            </div>
-            </p>
+    <!-- ═══ The Codex Circle — a tight-knit fellowship of believers who build ═══ -->
+    <section id="Circle" class="container mt-5">
+        <h2 class="text-center text-danger">The Codex Circle</h2>
+        <p class="text-center">We're a small, tight-woven fellowship of Christ-following programmers. We gather to ship code, sharpen one another, ask for help without shame, and point every line back to the Kingdom.</p>
 
-    <footer class="text-center text-white p-3">
-        <p>&copy; 2026 Midnight Codex. All rights reserved.</p>  
+        <div class="codex-panel mx-auto">
+            <p class="codex-prompt mb-3">~/midnight-codex $ cat creed.txt</p>
+            <ul class="codex-creed list-unstyled mb-0">
+                <li>✞ We write code as worship — <span class="text-danger">"whatever you do, do all to the glory of God."</span> (1 Cor 10:31)</li>
+                <li>✞ We build together and share what we learn.</li>
+                <li>✞ We sharpen one another — <span class="text-danger">"as iron sharpens iron."</span> (Prov 27:17)</li>
+                <li>✞ No one debugs alone. Ask, answer, encourage.</li>
+                <li>✞ We ship for the Kingdom, not for vanity.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ═══ The Forum — on-page discussion board (GitHub Discussions via giscus) ═══ -->
+    <section id="Forum" class="container mt-5">
+        <h2 class="text-center text-danger">Enter the Circle — Forum</h2>
+        <p class="text-center">Introduce yourself, ask a coding question, show what you're building, or drop a prayer request. Sign in with GitHub to post.</p>
+
+        <div id="giscus-container" class="codex-forum mx-auto">
+            <div id="forum-invite" class="codex-panel text-center">
+                <p class="codex-prompt">~/midnight-codex $ ./enter-circle.sh</p>
+                <p class="mb-3">Our board runs on GitHub Discussions. Click to load it and join the conversation.</p>
+                <button id="enter-circle" type="button" class="btn btn-danger btn-lg">&gt;_ Enter the Circle</button>
+            </div>
+        </div>
+
+        <p class="text-center mt-3">
+            <a href="https://github.com/Shadow-lofi/Midnight-Codex/discussions" class="text-danger" target="_blank" rel="noopener">Browse all topics on GitHub Discussions →</a>
+        </p>
+    </section>
+
+    <!-- ═══ House Rules — keeps the circle tight, welcoming, and moderated ═══ -->
+    <section id="HouseRules" class="container mt-5">
+        <h2 class="text-center text-danger">House Rules</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <ol class="codex-rules">
+                    <li><strong>Build one another up.</strong> Critique the code, never the coder. (Eph 4:29)</li>
+                    <li><strong>Keep it Christ-centered.</strong> A fellowship first, a dev group second.</li>
+                    <li><strong>Help before you scroll.</strong> If you can answer a question, do.</li>
+                    <li><strong>Give credit, keep it clean.</strong> No piracy, no plagiarism, no spam.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Join hub ═══ -->
+    <section id="ContactUs" class="container mt-5">
+        <h2 class="text-center text-danger">Join the Circle</h2>
+        <p class="text-center">Pull up a chair. Every believer who codes is welcome — beginner or veteran.</p>
+        <div class="row justify-content-center text-center g-3">
+            <div class="col-md-3 col-6">
+                <a href="https://github.com/Shadow-lofi/Midnight-Codex/discussions" class="btn btn-outline-danger w-100" target="_blank" rel="noopener">💬 Discussions</a>
+            </div>
+            <div class="col-md-3 col-6">
+                <a href="https://www.youtube.com/channel/UCbr6HuPff-1hFtirgtIJTMw" class="btn btn-outline-danger w-100" target="_blank" rel="noopener">▶️ YouTube</a>
+            </div>
+            <div class="col-md-3 col-6">
+                <a href="mailto:contact@midnightcodex.net" class="btn btn-outline-danger w-100">✉️ Email</a>
+            </div>
+        </div>
+        <p class="text-warning text-center mt-3">Reach us securely at contact@midnightcodex.net (PGP key available on request).</p>
+    </section>
+
+    <footer class="text-center text-white p-3 mt-5">
+        <p>&copy; 2026 Midnight Codex. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
